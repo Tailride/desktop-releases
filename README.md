@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://tailride.so">
-    <img src="https://tailride.so/logo.png" alt="Tailride Logo" width="120" height="auto" onerror="this.style.display='none'"/>
-  </a>
-</p>
-
 <h1 align="center">Tailride Desktop — Automated Invoice Downloader & Accounting Portal Sync</h1>
 
 <p align="center">
