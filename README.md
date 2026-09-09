@@ -20,10 +20,10 @@ Download the latest version of Tailride Desktop for your operating system:
 
 | Platform | Architecture | Package Type | Direct Download Link |
 |:---|:---|:---|:---|
-| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride.dmg) |
-| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Download Tailride macOS Archive (`.zip`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-mac.zip) |
-| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-Setup.exe) |
-| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-portable.exe) |
+| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-universal.dmg) |
+| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Download Tailride macOS Archive (`.zip`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-universal-mac.zip) |
+| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-Setup-0.1.0.exe) |
+| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-x64.exe) |
 
 > 💡 **Looking for previous builds or changelogs?** Browse the complete release archive on the [GitHub Releases Page](https://github.com/Tailride/desktop-releases/releases).
 
@@ -50,14 +50,14 @@ Operating silently from your macOS menu bar or Windows system tray, Tailride fet
 
 ### Installation on macOS
 
-1. Download **[Tailride.dmg](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride.dmg)**.
+1. Download **[Tailride-0.1.0-universal.dmg](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-universal.dmg)**.
 2. Open the downloaded `.dmg` and drag **Tailride** into your **Applications** folder.
 3. Launch Tailride from Applications or Spotlight.
 4. *(Optional)* If macOS Gatekeeper displays an untrusted developer warning on pre-release builds, right-click `Tailride.app` in Finder, select **Open**, and click **Open** in the dialog (or allow in *System Settings > Privacy & Security*).
 
 ### Installation on Windows
 
-1. Download **[Tailride-Setup.exe](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-Setup.exe)**.
+1. Download **[Tailride-Setup-0.1.0.exe](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-Setup-0.1.0.exe)**.
 2. Run the installer and choose whether to create desktop and Start menu shortcuts.
 3. Tailride will launch and minimize to the notification tray.
 
