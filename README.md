@@ -65,7 +65,6 @@ Operating silently from your macOS menu bar or Windows system tray, Tailride fet
 
 ## 🔄 How Auto-Updates Work
 
-Tailride Desktop has built-in auto-updating powered by `electron-updater`.
 
 - **Silent Background Check**: Tailride checks this public repository (`Tailride/desktop-releases`) every 6 hours for new releases.
 - **Instant Notification**: When a new version is detected, it downloads silently in the background and notifies you via native OS notifications and an in-app banner.
@@ -79,7 +78,7 @@ Tailride Desktop has built-in auto-updating powered by `electron-updater`.
 | Concern | How Tailride Protects You |
 |:---|:---|
 | **Portal Passwords** | Encrypted locally via macOS Keychain or Windows DPAPI (`node-keytar` / `safeStorage`). Passwords are never transmitted to Tailride servers. |
-| **Web Sessions** | Isolated per-profile Electron partitions. Cookie jars and active sessions stay entirely on your local machine. |
+| **Web Sessions** | Isolated per-profile partitions. Cookie jars and active sessions stay entirely on your local machine. |
 | **Document Processing** | Optical Character Recognition (OCR) and PDF parsing run locally on your CPU/GPU. |
 | **Compliance** | GDPR-compliant, privacy-first architecture with zero third-party telemetry in desktop core operations. |
 
