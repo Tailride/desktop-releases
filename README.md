@@ -20,10 +20,10 @@ Download the latest version of Tailride Desktop for your operating system:
 
 | Platform | Architecture | Package Type | Direct Download Link |
 |:---|:---|:---|:---|
-| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-universal.dmg) |
-| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Download Tailride macOS Archive (`.zip`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-universal-mac.zip) |
-| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-Setup-0.1.0.exe) |
-| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://github.com/Tailride/desktop-releases/releases/latest/download/Tailride-0.1.0-x64.exe) |
+| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://github.com/Tailride/desktop-releases/releases/download/v0.4.0/Tailride-0.4.0-universal.dmg) |
+| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Download Tailride macOS Archive (`.zip`)](https://github.com/Tailride/desktop-releases/releases/download/v0.4.0/Tailride-0.4.0-universal.zip) |
+| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://github.com/Tailride/desktop-releases/releases/download/v0.4.0/Tailride-Setup-0.4.0.exe) |
+| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://github.com/Tailride/desktop-releases/releases/download/v0.4.0/Tailride-0.4.0-x64.exe) |
 
 > 💡 **Looking for previous builds or changelogs?** Browse the complete release archive on the [GitHub Releases Page](https://github.com/Tailride/desktop-releases/releases).
 
