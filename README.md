@@ -20,12 +20,14 @@ Download the latest version of Tailride Desktop for your operating system:
 
 | Platform | Architecture | Package Type | Direct Download Link |
 |:---|:---|:---|:---|
-| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-0.5.2-universal.dmg) |
-| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Download Tailride macOS Archive (`.zip`)](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-0.5.2-universal.zip) |
-| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-Setup-0.5.2.exe) |
-| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-0.5.2-x64.exe) |
+| **macOS** | Apple Silicon & Intel Universal | `.dmg` Installer | [Download Tailride for macOS (`.dmg`)](https://tailride.so/api/desktop/download?os=mac) |
+| **macOS** | Apple Silicon & Intel Universal | `.zip` (Auto-update archive) | [Latest release on GitHub](https://github.com/Tailride/desktop-releases/releases/latest) |
+| **Windows** | 64-bit (x64) | Setup Installer (`.exe`) | [Download Tailride for Windows (`.exe`)](https://tailride.so/api/desktop/download?os=windows) |
+| **Windows** | 64-bit (x64) | Portable (`.exe`) | [Download Tailride Portable (`.exe`)](https://tailride.so/api/desktop/download?os=windows-portable) |
 
-> 💡 **Looking for previous builds or changelogs?** Browse the complete release archive on the [GitHub Releases Page](https://github.com/Tailride/desktop-releases/releases).
+> 💡 The download links above always resolve to the latest version. **Looking for previous builds or changelogs?** Browse the complete release archive on the [GitHub Releases Page](https://github.com/Tailride/desktop-releases/releases) or read the [release notes on tailride.so](https://tailride.so/desktop/changelog).
+>
+> 🌐 Product pages: [Desktop app](https://tailride.so/desktop) · [Tailride for Mac](https://tailride.so/desktop/mac) · [Tailride for Windows](https://tailride.so/desktop/windows) · [Invoices from Proton Mail](https://tailride.so/proton-mail) · [Documentation](https://docs.tailride.so/desktop)
 
 ---
 
@@ -37,10 +39,10 @@ Operating silently from your macOS menu bar or Windows system tray, Tailride fet
 
 ### Key Capabilities
 
-- **Automatic Background Collection**: Set your schedule (e.g., every Monday at 11:00 AM, daily, or on-demand). Tailride wakes up, gathers your latest billing documents, and goes back to sleep.
-- **60+ Pre-Configured Supplier Portals**: Out-of-the-box support for Amazon (DE, US, UK, FR, ES, IT, JP, and Business variants), Stripe, Google Ads, Google Cloud, Microsoft 365, Adobe, GitHub, Vercel, Uber, Notion, Figma, and dozens more.
-- **Proton Mail & IMAP Invoice Extraction**: Connect your local Proton Mail Bridge or IMAP inbox to automatically detect receipts, convert clean email bodies to PDFs, and parse attached invoices.
-- **Local OCR & Factur-X / ZUGFeRD Detection**: Includes built-in native text recognition (Apple Vision Framework / OCR engine) to read scanned and photographic receipts without sending documents to third-party clouds.
+- **Automatic Background Collection**: Pick your own schedule — hourly, daily, weekly, monthly, quarterly, or on demand. Tailride wakes up, gathers your latest billing documents, and goes back to sleep.
+- **Pre-Configured Supplier Portals**: The same portals as the Tailride browser extension — Amazon (every marketplace, Business and personal), Stripe, AWS, Google Ads, Google Cloud, Microsoft 365, Adobe, Meta Ads, OpenAI, GitHub, Vercel, Uber, Notion, Figma, and more. Full list: [tailride.so/online-portals](https://tailride.so/online-portals).
+- **Proton Mail Invoice Extraction (via Proton Mail Bridge)**: Reads your Proton mailbox on your own computer through Proton Mail Bridge, converts HTML email receipts to PDF, skips files that clearly are not invoices, and uploads the likely invoices to Tailride for processing. Requires a paid Proton plan for Bridge. See [tailride.so/proton-mail](https://tailride.so/proton-mail).
+- **Local Pre-Check & Factur-X / ZUGFeRD Detection**: Built-in text recognition takes a first look at scanned and photographed receipts on your computer so obvious non-invoices are skipped before upload; the documents that look like invoices are then processed by Tailride. Hybrid e-invoices (Factur-X, ZUGFeRD, XRechnung) are recognised.
 - **Bank-Grade Local Security**: All portal credentials and sessions are encrypted using your computer's native secure enclave / OS keychain (macOS Keychain or Windows DPAPI). Zero plaintext storage.
 - **Local Folder Ingestion**: Drop historical scans or supplier PDFs into a watched folder to deduplicate and organize them instantly.
 
@@ -50,14 +52,14 @@ Operating silently from your macOS menu bar or Windows system tray, Tailride fet
 
 ### Installation on macOS
 
-1. Download **[Tailride-0.5.2-universal.dmg](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-0.5.2-universal.dmg)**.
+1. Download **[the latest macOS build (.dmg)](https://tailride.so/api/desktop/download?os=mac)**.
 2. Open the downloaded `.dmg` and drag **Tailride** into your **Applications** folder.
 3. Launch Tailride from Applications or Spotlight.
 4. *(Optional)* If macOS Gatekeeper displays an untrusted developer warning on pre-release builds, right-click `Tailride.app` in Finder, select **Open**, and click **Open** in the dialog (or allow in *System Settings > Privacy & Security*).
 
 ### Installation on Windows
 
-1. Download **[Tailride-Setup-0.5.2.exe](https://github.com/Tailride/desktop-releases/releases/download/v0.5.2/Tailride-Setup-0.5.2.exe)**.
+1. Download **[the latest Windows installer (.exe)](https://tailride.so/api/desktop/download?os=windows)**.
 2. Run the installer and choose whether to create desktop and Start menu shortcuts.
 3. Tailride will launch and minimize to the notification tray.
 

@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+PackageIdentifier: Tailride.Tailride
+PackageVersion: 0.5.3
+PackageLocale: en-US
+Publisher: Tailride
+PublisherUrl: https://tailride.so
+PublisherSupportUrl: https://docs.tailride.so/desktop
+PrivacyUrl: https://tailride.so/privacy-policy
+PackageName: Tailride
+PackageUrl: https://tailride.so/desktop
+License: Proprietary
+LicenseUrl: https://tailride.so/tos
+ShortDescription: Collects invoices from supplier portals, Proton Mail and folders on a schedule
+Description: |-
+  Tailride Desktop collects invoices from your supplier portals (Amazon, Stripe, AWS, Google Ads and more), Proton Mail and folders on your computer, on the schedule you choose. It runs from the system tray, can sign in for you (including authenticator-app codes), and keeps your portal passwords in Windows' protected storage instead of on a cloud server. Invoices are uploaded to your Tailride account and passed on to your accounting software.
+Moniker: tailride
+Tags:
+  - invoices
+  - receipts
+  - bookkeeping
+  - accounting
+  - expenses
+ReleaseNotesUrl: https://tailride.so/desktop/changelog
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
