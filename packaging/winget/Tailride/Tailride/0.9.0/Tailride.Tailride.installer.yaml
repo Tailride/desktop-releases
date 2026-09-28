@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 PackageIdentifier: Tailride.Tailride
-PackageVersion: 0.5.3
+PackageVersion: 0.9.0
 InstallerType: nullsoft
 Scope: user
 InstallModes:
@@ -8,18 +8,18 @@ InstallModes:
   - silent
   - silentWithProgress
 UpgradeBehavior: install
-ReleaseDate: 2026-09-18
+ReleaseDate: 2026-09-28
 Installers:
   - Architecture: x64
-    InstallerUrl: https://github.com/Tailride/desktop-releases/releases/download/v0.5.3/Tailride-Setup-0.5.3.exe
-    InstallerSha256: E1F30DD8749208E0EE2F3EB0A72A0E1D4CC88C2995C670B39006E118FF0DC5A1
+    InstallerUrl: https://github.com/Tailride/desktop-releases/releases/download/v0.9.0/Tailride-Setup-0.9.0.exe
+    InstallerSha256: C20527D5485550ADF71C429B072B4176AA8DE5EF32AA271272B7D6C952E96193
     InstallerSwitches:
       Silent: /S
       SilentWithProgress: /S
   - Architecture: x64
     InstallerType: portable
-    InstallerUrl: https://github.com/Tailride/desktop-releases/releases/download/v0.5.3/Tailride-0.5.3-x64.exe
-    InstallerSha256: AD6A181AF6B0E904649CF7A849C98380CF1530DB6E1793A24F5C81CB1D2BF5EB
+    InstallerUrl: https://github.com/Tailride/desktop-releases/releases/download/v0.9.0/Tailride-0.9.0-x64.exe
+    InstallerSha256: 1D39BE98246D3A85D87606DE9B38761CDE12A7444FE1745D8EAF23166F65CA7E
     Commands:
       - tailride
 ManifestType: installer
